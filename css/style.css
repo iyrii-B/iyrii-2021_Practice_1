@@ -1,7 +1,7 @@
 /* &display=swap&subset=cyrillic-ext */
 
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,500,700,900,&display=swap&subset=cyrillic-ext");
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,700,900,&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap&subset=cyrillic-ext");
 
 /* ОБНУЛЕНИЕ СТИЛЕЙ */
 *,
@@ -43,6 +43,7 @@ html {
 }
 body {
 	font-family: 'Roboto';
+
 	line-height: 1;
 }
 .wrapper {
@@ -51,7 +52,7 @@ body {
 	background: rgb(240, 234, 234);
 }
 /* ----------------------------- */
-/* .text_top{
+.text_top{
 	font-size: 36px;
 	color: rgb(87, 116, 81);
 	text-align: center;
@@ -239,6 +240,7 @@ body {
 }
 .suptitle, h4{
 	font-weight: 600;
+	/* font-size: 16px; */
 	line-height: 26px;
 	padding: 16px 0;
 }
@@ -289,4 +291,4 @@ body {
 	letter-spacing: 0px;
 	text-align: left;
 }
- */
+
